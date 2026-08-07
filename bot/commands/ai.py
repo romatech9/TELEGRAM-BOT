@@ -6,7 +6,7 @@ from telegram.ext import ContextTypes
 
 from voice import text_to_voice  # <-- YOUR voice.py
 
-API_URL = "https://prexzyapis.com/ai/aichat"
+API_URL = "https://prexzyapis.com/ai/aiwriter-chat?prompt=Hy&model=gpt-4o-mini"
 
 # ADDED: This stores chat history
 conversation_history = {}
